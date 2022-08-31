@@ -11,6 +11,14 @@
 
 ## Introduction<a class="anchor" id="introduction"></a>
 
+This repository contains my submission to the "Communicate Data Findings" project of the Udacity's Data Analyst Nanodegree program. These are the contents of the repository:
+
+* README.md: This file.
+* [Part_I_exploration.ipynb](Part_I_exploration.ipynb): Jupyter notebook containing the first part of the project where we perform the data wranging and exploratory analysis.
+* [Part_II_slide_deck.ipynb](Part_II_slide_deck.ipynb): Jupyter notebook containing the second part of the project where we present the findings of the first part.
+* [prosperLoanData.csv.zip](prosperLoanData.csv.zip): Compressed data set.
+* [requirements.txt](requirements.txt): PyPI requirements file containing the dependencies needed to run the code of the notebooks.
+
 ## Dataset<a class="anchor" id="dataset"></a>
 
 I've chosen the "Loan Data from Prosper" dataset as it strikes a good balance between size, complexity and richness. It has a lot of variables to chose from, both numerical and categorical and enough samples to provided meaningful results.
