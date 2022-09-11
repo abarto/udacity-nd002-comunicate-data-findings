@@ -27,7 +27,16 @@ This data set contains information about 113937 loans from [Prosper](https://www
 
 ## Summary of Findings<a class="anchor" id="findings"></a>
 
-> Summarize all of your findings from your exploration here, whether you plan on bringing them into your explanatory presentation or not.
+* There was a dip in number of loans on 2009
+* Most loans are taken at the end of the year
+* BorrowerRate, BorrowerAPR and LenderYield have similar multi-modal distributions
+* Most loans are taken for debt consolidation
+* The vast majority of loans have 36 month terms
+* Half the borrowers are home owners
+* Loans are taken mostly on "round" amounts
+* BorrowerRage and BorrowerRate are highly correlated, but there's another variable that's grouping the loans
+* Higher credit grades (for both variables) lead to lower borrower rates
+* At least for deals after 2009, the term is a factor that increases the APR over the rate
 
 ## Key Insights for Presentation<a class="anchor" id="key-insights"></a>
 
