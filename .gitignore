@@ -130,6 +130,3 @@ dmypy.json
 
 # Mac OS X folder information file
 .DS_Store
-
-# Processed data set
-prosper_load_data_clean.pickle

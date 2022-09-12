@@ -15,8 +15,12 @@ This repository contains my submission to the "Communicate Data Findings" projec
 
 * README.md: This file.
 * [Part_I_exploration.ipynb](Part_I_exploration.ipynb): Jupyter notebook containing the first part of the project where we perform the data wranging and exploratory analysis.
+* [Part_I_exploration.html](Part_I_exploration.html): HTML export of ``Part_I_exploration.ipynb``.
+* [Part_I_exploration.pdf](Part_I_exploration.pdf): PDF printout of ``Part_I_exploration.html``.
 * [Part_II_slide_deck.ipynb](Part_II_slide_deck.ipynb): Jupyter notebook containing the second part of the project where we present the findings of the first part.
+* [Part_II_slide_deck.slides.html](Part_II_slide_deck.slides.html): Generated slides by converting ``Part_II_slide_deck.ipynb``.
 * [prosperLoanData.csv.zip](prosperLoanData.csv.zip): Compressed data set.
+* [prosper_load_data_clean.pickle](prosper_load_data_clean.pickle): Cleaned data set.
 * [requirements.txt](requirements.txt): PyPI requirements file containing the dependencies needed to run the code of the notebooks.
 
 ## Dataset<a class="anchor" id="dataset"></a>
@@ -34,12 +38,16 @@ This data set contains information about 113937 loans from [Prosper](https://www
 * The vast majority of loans have 36 month terms
 * Half the borrowers are home owners
 * Loans are taken mostly on "round" amounts
-* BorrowerRage and BorrowerRate are highly correlated, but there's another variable that's grouping the loans
+* BorrowerAPR and BorrowerRate are highly correlated, but there's another variable that's grouping the loans
 * Higher credit grades (for both variables) lead to lower borrower rates
 * At least for deals after 2009, the term is a factor that increases the APR over the rate
 
 ## Key Insights for Presentation<a class="anchor" id="key-insights"></a>
 
-> Select one or two main threads from your exploration to polish up for your presentation. Note any changes in design from your exploration step here.
+Mot of the exploration was geared towards finding the variables that influence ``BorrowerAPR``. While analysing some of these variables we did gain some insight about their structure and distribution. Sadly the specifics about the dataset, in particular the  2009 split, makes it easier to anser global hypothesis, but in the and we did manage to found at least one variable that had a measurable effect on the ``BorrowerAPR``.
 
 ## Conclusions<a class="anchor" id="presentation"></a>
+
+* The subject matter is quite complex. The financial world (and loans in particular) are notoriously obscure when it comes to the modelling. Exploring the details behind all the variables was beyond the scope of this project.
+* Some variables, like the credit grades, split the dataset in two, so this limited global explorations and it's an indicator that perhaps the rest of the variables should be segmented as well.
+* All the information is mostly about the loans, and not so much about the borrowers. Some information, like the age, is a factor that can affect some of the variables.
